@@ -125,7 +125,7 @@ body{
 }
 
 i{
-    font-size: 100px;
+    
 }
 .dev-icons{
     font-size: 72px;
@@ -135,6 +135,7 @@ i{
   }
 
 .dev-icons{
+    font-size: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
