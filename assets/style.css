@@ -1,0 +1,145 @@
+/* body{
+    background-image: url(/assets/images/synth-retrowave-stock.jpg);
+    background-size: 3000px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+} */
+
+body { 
+    background: url(/assets/images/synth-retrowave-stock.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 3000px 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+  }
+
+.jumbotron {
+    background-image: url(/assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+}
+
+.push-spaces{
+    height: 1000px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: start;
+    align-items: left;
+}
+
+.right{
+    display: flex;
+    justify-content: end;
+    align-items: right;
+}
+
+.highlight{
+    color: #fb3864;
+}
+
+.navbar{
+    /* background: #000; */
+    box-shadow: inset 0 0 0 500px rgba(38, 37, 43, .9);
+}
+
+/* .nav-link{
+    color: #fb3864;
+} */
+
+a{
+    color: #00AFF8;
+
+}
+
+a:hover{
+    color: #EE1295;
+}
+
+.section{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: #0c1024;
+    border-radius: 0px 20px 20px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding: 1px;
+}
+
+.section:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #ffffff;
+    z-index: -1;
+}
+.section:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #ffffff;
+    z-index: -1;
+    filter: blur(40px);
+}
+.section:before,
+.section:after{
+    background: linear-gradient(to top right, #00AFF8, #0c1024, #EE1295 );
+
+}
+
+.content{
+    background: #0c1024;
+    margin: 2px;
+    padding: 20px;
+}
+
+.section-heading{
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+body{
+    height: 5000px;
+}
+
+i{
+    font-size: 100px;
+}
+.dev-icons{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#00AFF8, #EE1295);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.dev-icons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon-row{
+    margin-bottom: 20px;
+}
