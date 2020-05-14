@@ -163,7 +163,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    /* margin: 10px; */
     transition: 0.5s;
     color: white;
     background: #0c1024;
