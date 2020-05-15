@@ -12,7 +12,7 @@ body {
 }
 
 main{
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 .jumbotron {
@@ -22,6 +22,24 @@ main{
     text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
     box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.7);
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 775px){
+    .main-title {
+    font-size: 45px;    
+    }
+}
+
+@media screen and (max-width: 629px){
+    .main-title {
+    font-size: 35px;    
+    }
+}
+
+@media screen and (max-width: 497px){
+    .main-title {
+    font-size: 25px;    
+    }
 }
 
 .push-spaces{
@@ -60,8 +78,8 @@ main{
 } */
 
 a{
+    padding: 8px !important;
     color: #00AFF8;
-
 }
 
 a:hover{
@@ -76,7 +94,7 @@ a:active{
     margin-top: 100px;
     margin-bottom: 50px;
     background: #0c1024;
-    border-radius: 0px 20px 20px;
+    /* border-radius: 0px 20px 20px; */
     color: white;
     position: relative;
     display: flex;
@@ -100,10 +118,10 @@ a:active{
 .section:after{
     content: '';
     position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
     background: #ffffff;
     z-index: -1;
     filter: blur(40px);
@@ -117,7 +135,7 @@ a:active{
 
 .content{
     background: #0c1024;
-    margin: 2px;
+    margin: 1px;
     padding: 20px;
 }
 
@@ -128,7 +146,7 @@ a:active{
 }
 
 .projects{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 /* main{
@@ -148,7 +166,7 @@ i{
 
 .dev-icons{
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 
@@ -324,9 +342,18 @@ footer{
     height: 100px;
 }
 
+
 /* #job-title{
     font-size: 15px;
 } */
+
+.mt-0{
+    color: #00AFF8;
+}
+
+#pipe{
+    color: white;
+}
 
 #resume-button{
     margin-top: 50px;
@@ -342,8 +369,6 @@ footer{
     /* box-shadow: 0 0 10px #00AFF8, 0 0 40px #00AFF8, 0 0 80px #00AFF8; */
     border: solid rgba(38, 37, 43, .9);
     border-width: 2px;
- 
-
 }
 
 #resume-button:hover{
