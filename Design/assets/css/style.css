@@ -1,6 +1,6 @@
 
 body { 
-    background: url(../assets/images/synth-retrowave-stock.jpg) no-repeat center center fixed; 
+    background: url(../images/synth-retrowave-stock.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,7 +16,7 @@ main{
 }
 
 .jumbotron {
-    background-image: url(/assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    background-image: url(../images/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
     background-size: cover;
     height: 100%;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
@@ -152,10 +152,6 @@ a:active{
 /* main{
     height: 5000px;
 } */
-
-i{
-
-}
 
 
 .dev-icons{
@@ -382,6 +378,7 @@ footer{
     transition-delay: .0s;
     border: solid rgba(38, 37, 43, .0);
     border-width: 2px;
+    text-decoration: none;
 }
 
 #resume-button:active{
@@ -391,4 +388,8 @@ footer{
     transition-delay: .0s;
     border: solid rgba(38, 37, 43, .0);
     border-width: 2px;
+}
+
+#resume-button a{
+    text-decoration: none;
 }

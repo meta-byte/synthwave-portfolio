@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Garrett Howard</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,11 +14,13 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./assets/style.css" </head>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" type="img/ico" href="https://ghoward.dev/favicon.ico">
+</head>
 
 <body>
     <main>
-        <div class="jumbotron jumbotron-fluid push-spaces center">
+        <div class=" jumbotron jumbotron-fluid push-spaces center">
             <div class="container-fluid color-overlay">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column">
@@ -33,13 +35,13 @@
             <div class="container-fluid">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                 </ul>
                 <!-- <ul class="nav">
@@ -59,7 +61,7 @@
             <div class="row center section">
                 <div class="col-sm-12 content">
                     <div>
-                        <h1 class="display-5 center section-heading">About Me</h1>
+                        <h1 class="display-5 center section-heading" id="about">About Me</h1>
                         <p class="text-center"> Full Stack Web Developer with a background in IT support.
                             Certificate from
                             University of Utah
@@ -117,7 +119,7 @@
             <div class="row center">
                 <div class="col-sm-12 text-white projects">
                     <div>
-                        <h1 class="display-5 center section-heading"><span class="">Projects</span></h1>
+                        <h1 class="display-5 center section-heading"><span class="" id="projects">Projects</span></h1>
                     </div>
 
                     <div class="row project-row">
@@ -127,58 +129,48 @@
                                     <img src="./assets/images/skiresortreport.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="#">Repo</a>
-                                    <a class="nav-link" href="#">Live</a>
+                                    <a class="nav-link" href="https://github.com/meta-byte/Ski_Resort_Weather_Report"
+                                        target="_blank">Repo</a>
+                                    <a class="nav-link" href="https://meta-byte.github.io/Ski_Resort_Weather_Report/"
+                                        target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Project Title</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!</p>
+                            <h4>Ski Resort Conditions App</h4>
+                            <p>This web application allows a user to search weather forecasts and snow conditions at
+                                specified resort. The search also displays an imbeded google map with a location marker
+                                and a current twitter feed of the specified resort's twitter handle. All of this
+                                information is displayed on the page in an easy to read dashboard format. The styling of
+                                the page was done using Google's Materialize CSS framework. In it's current state the
+                                application is limited by the subscription tier used with the Weather Unlocked API to a
+                                single search, but the app is designed to be scalable with subscription tiers. Forecast
+                                information is based on 1:00pm local time for the present day at the resort.</p>
                         </div>
                     </div>
 
                     <div class="row project-row">
                         <div class="order-2 order-sm-2 order-md-1 col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Project Title</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!</p>
+                            <h4>Sortable Discord Member Roster</h4>
+                            <p>My first ever React app. The app was built with "npx create-react-app" and then
+                                boilerplate files were removed or edited. The objective was to be able to display a list
+                                of people and sort them by a criteria AND filter them by a criteria. To meet this
+                                objective I built a dummy roster of a Discord gaming server my friends and I use.
+                                Several separate components were built and rendered, state was used to manage displaying
+                                sorted items. The app was styled minimally with the Materialize CSS Framework.</p>
                         </div>
                         <div class="order-1 order-sm-1 order-md-2 col-sm-12 col-md-6 col-lg-3 center">
                             <div class="imgcard" id="card2">
                                 <div class="imgbox">
-                                    <img src="./assets/images/skiresortreport.png">
+                                    <img src="./assets/images/discordRoster.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="#">Repo</a>
-                                    <a class="nav-link" href="#">Live</a>
+                                    <a class="nav-link" href="https://github.com/meta-byte/discord_react_directory"
+                                        target="_blank">Repo</a>
+                                    <a class="nav-link" href="https://discord-roster.herokuapp.com/"
+                                        target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
@@ -191,58 +183,52 @@
                                     <img src="./assets/images/epicenter-earthquake-tracker.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="#">Repo</a>
-                                    <a class="nav-link" href="#">Live</a>
+                                    <a class="nav-link" href="https://github.com/meta-byte/Earthquake-Tracker"
+                                        target="_blank">Repo</a>
+                                    <a class="nav-link" href="https://epicenter-earthquake-tracker.herokuapp.com/"
+                                        target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Project Title</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!</p>
+                            <h4>Earthquake Tracker</h4>
+                            <p> Part of a team that created this slick looking app. Epicenter earthquake tracker allows
+                                a
+                                user to search for earthquake data for a specific
+                                location based on latitude, longitude magnitude and radius. The search then displays
+                                a google map showing the location of the 12 most recent earthquake events along
+                                with a card showing data for each event. This information is displayed on a
+                                dashboard that is specific to the user. If a user signs out and signs back in the last
+                                performed search will be used as the new "default" search. The application was built
+                                with a React.js front end and an Express server
+                                backend. Information on earthquakes was pulled from the USGS Earthquake API and updates
+                                in real time. The styling of the page was
+                                done using bootstrap. The application was built with a React.js front end and an Express
+                                server
+                                backend.</p>
                         </div>
                     </div>
 
                     <div class="row project-row">
                         <div class=" order-2 order-sm-2 order-md-1 col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Project Title</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum provident eaque,
-                                accusantium
-                                natus
-                                quas magni aspernatur ipsa numquam esse sit, ullam ad illum animi. Accusantium
-                                voluptatem
-                                minus
-                                sint magnam. Porro!</p>
+                            <h4>Password Generator</h4>
+                            <p>My first real Javascript project, this password generator is designed to allow a user to
+                                create a secure password of a custom length using lowercase letters, uppercase letters,
+                                numbers, and symbols. Users are able to select which types of characters they would like
+                                to use in their generated password.</p>
                         </div>
                         <div class="order-1 order-sm-1 order-md-2 col-sm-12 col-md-6 col-lg-3 center">
                             <div class="imgcard" id="card4">
                                 <div class="imgbox">
-                                    <img src="./assets/images/skiresortreport.png">
+                                    <img src="./assets/images/passwordgenerator.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="#">Repo</a>
-                                    <a class="nav-link" href="#">Live</a>
+                                    <a class="nav-link" href="https://github.com/meta-byte/password_generator"
+                                        target="_blank">Repo</a>
+                                    <a class="nav-link" href="https://meta-byte.github.io/password_generator/"
+                                        target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
@@ -254,65 +240,62 @@
         <div class="container">
             <div class="row center section">
                 <div class="col-sm-12 content">
-                    <h1 class="display-5 section-heading experience center">Experience</h1>
+                    <h1 class="display-5 section-heading experience center" id="experience">Experience</h1>
 
                     <div class="media">
-                        <img src="/assets/images/canopy.jpeg" class="mr-3 center" alt="">
+                        <img src="./assets/images/canopy.jpeg" class="mr-3 center" alt="">
                         <div class="media-body">
                             <h5 class="mt-0">Canopy<span id="pipe"> | </span><span class="highlight" id="job-title"> IT
                                     Support Specialist</span></h5>
-                            <small>Start - End</small>
+                            <small>September 2019 - Present</small>
                             <br>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin.
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum
-                                nunc
-                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p>Dedicated IT support technician for needs within the Canopy office. Troubleshooting of
+                                hardware, software and network issues. Inventory equipment and replace as needed. Create
+                                documentation for IT policies and current infrastructure configurations. Provisioning
+                                and deprovisioning of resources for Canopy employees. Other projects as needed by the
+                                DevOps team.</p>
                         </div>
                     </div>
 
                     <div class="media">
-                        <img src="/assets/images/dellemc.png" class="mr-3" alt="...">
+                        <img src="./assets/images/dellemc.png" class="mr-3" alt="...">
                         <div class="media-body">
-                            <h5 class="mt-0">Canopy<span id="pipe"> | </span><span class="highlight" id="job-title"> IT
-                                    Support Specialist</span></h5>
-                            <small>Start - End</small>
+                            <h5 class="mt-0">Dell EMC<span id="pipe"> | </span><span class="highlight"
+                                    id="job-title">Technical Support Engineer Level I</span></h5>
+                            <small>August 2017 - June 2018</small>
                             <br>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin.
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum
-                                nunc
-                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p>Member of the Dell EMC Recoverpoint product team. Completed Information Storage and
+                                Management v3 certification. Completed Dell EMC Recoverpoint product certification.
+                                Worked with end users to troubleshoot data protection and recovery systems. Provided end
+                                users with Dell EMC recommended storage procedures. Frequent system log analysis.
+                                Troubleshooting of both physical and virtual storage environments. Dispatch field
+                                technicians to replace or re-install components in customer environments.</p>
                         </div>
                     </div>
 
                     <div class="media">
-                        <img src="/assets/images/reverehealth.png" class="mr-3" alt="...">
+                        <img src="./assets/images/reverehealth.png" class="mr-3" alt="...">
                         <div class="media-body">
-                            <h5 class="mt-0">Canopy<span id="pipe"> | </span><span class="highlight" id="job-title"> IT
-                                    Support Specialist</span></h5>
-                            <small>Start - End</small>
+                            <h5 class="mt-0">Revere Health<span id="pipe"> | </span><span class="highlight"
+                                    id="job-title">IT Service Desk Analayst Level II</span></h5>
+                            <small>May 2015 - June 2017</small>
                             <br>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin.
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum
-                                nunc
-                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p>Support of end users in both software and hardware. Take support phone calls and dispatch
+                                analysts to off site locations. Troubleshooting of hardware and software. Replacing of
+                                computer components and the provisioning and placement of computer systems. Time as an
+                                on-call analyst. Understanding of DNS, DHCP and basic network infrastructure.</p>
                         </div>
                     </div>
 
                     <div class="media">
-                        <img src="/assets/images/exactware.png" class="mr-3" alt="...">
+                        <img src="./assets/images/exactware.png" class="mr-3" alt="...">
                         <div class="media-body">
-                            <h5 class="mt-0">Canopy<span id="pipe"> | </span><span class="highlight" id="job-title"> IT
-                                    Support Specialist</span></h5>
-                            <small>Start - End</small>
+                            <h5 class="mt-0">Xactware<span id="pipe"> | </span><span class="highlight"
+                                    id="job-title">Structural QA Coordinator</span></h5>
+                            <small>August 2014 - May 2015</small>
                             <br>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                sollicitudin.
-                                Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum
-                                nunc
-                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                            <p>Conduct construction cost research, update database with ﬁndings, analyze data & submit
+                                price changes for national subscribers.</p>
                         </div>
                     </div>
 
@@ -320,7 +303,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 center">
-                    <a id="resume-button">Download My Resume</a>
+                    <a id="resume-button" href="./assets/Files/Garrett_Howard_Resume.pdf"
+                        download="Garrett_Howard_Resume">Download My Resume</a>
 
                 </div>
             </div>
@@ -330,13 +314,16 @@
         <div class="container-fluid center">
             <ul class="nav footer-icons center">
                 <li class="nav-item">
-                    <a class="nav-link footer-links" href="#"><i class="devicon-github-plain"></i></a>
+                    <a class="nav-link footer-links" href="https://github.com/meta-byte" target="_blank"><i
+                            class="devicon-github-plain"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link footer-links" href="#"><i class="fab fa-linkedin"></i></a>
+                    <a class="nav-link footer-links" href="https://www.linkedin.com/in/garrett-howard-859007a0/"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link footer-links" href="#"><i class="fas fa-envelope"></i></a>
+                    <a class="nav-link footer-links" href="mailto:hylander.garrett@gmail.com?"><i
+                            class="fas fa-envelope"></i></a>
                 </li>
             </ul>
         </div>
