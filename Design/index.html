@@ -14,7 +14,7 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="img/ico" href="https://ghoward.dev/favicon.ico">
 </head>
 
@@ -23,7 +23,7 @@
         <div class=" jumbotron jumbotron-fluid push-spaces center">
             <div class="container-fluid color-overlay">
                 <div class="d-flex justify-content-center">
-                    <div class="d-flex flex-column">
+                    <div class="d-sm-flex flex-column">
                         <h1 class="display-4 text-white main-title">Hi, I'm <span class="highlight">Garrett
                                 Howard.</span></h1>
                         <h1 class="display-4 text-white main-title">I'm a full-stack web developer.</h1>
@@ -63,7 +63,7 @@
                     <div>
                         <h1 class="display-5 center section-heading" id="about">About Me</h1>
                         <p class="text-center"> Full Stack Web Developer with a background in IT support.
-                            Certificate from
+                            Certified through the
                             University of Utah
                             Professional Education program in full stack web technologies including HTML, CSS,
                             JavaScript,
@@ -71,9 +71,9 @@
                             University.
                             CompTIA Project + certified with an understanding of Agile and Waterfall methodologies. A
                             self
-                            starter with a passion for problem solving and creating responsive web applications. My IT
-                            experience allows me to perceive potential problems faced by end users, making me a strong
-                            addition to any development team. </p>
+                            starter with a passion for problem solving and creating responsive web applications. I am a
+                            strong addition to any development team as my IT experience allows me to percieve
+                            potential problems faced by end users. </p>
                     </div>
                 </div>
             </div>
@@ -124,29 +124,35 @@
 
                     <div class="row project-row">
                         <div class="col-sm-12 col-md-6 col-lg-3 center">
-                            <div class="imgcard" id="card1">
+                            <div class="imgcard" id="card3">
                                 <div class="imgbox">
-                                    <img src="./assets/images/skiresortreport.png">
+                                    <img src="./assets/images/epicenter-earthquake-tracker.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="https://github.com/meta-byte/Ski_Resort_Weather_Report"
+                                    <a class="nav-link" href="https://github.com/meta-byte/Earthquake-Tracker"
                                         target="_blank">Repo</a>
-                                    <a class="nav-link" href="https://meta-byte.github.io/Ski_Resort_Weather_Report/"
+                                    <a class="nav-link" href="https://epicenter-earthquake-tracker.herokuapp.com/"
                                         target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Ski Resort Conditions App</h4>
-                            <p>This web application allows a user to search weather forecasts and snow conditions at
-                                specified resort. The search also displays an imbeded google map with a location marker
-                                and a current twitter feed of the specified resort's twitter handle. All of this
-                                information is displayed on the page in an easy to read dashboard format. The styling of
-                                the page was done using Google's Materialize CSS framework. In it's current state the
-                                application is limited by the subscription tier used with the Weather Unlocked API to a
-                                single search, but the app is designed to be scalable with subscription tiers. Forecast
-                                information is based on 1:00pm local time for the present day at the resort.</p>
+                            <h4>Earthquake Tracker</h4>
+                            <p> Part of a team that created this slick looking app. Epicenter earthquake tracker allows
+                                a
+                                user to search for earthquake data for a specific
+                                location based on latitude, longitude magnitude and radius. The search then displays
+                                a google map showing the location of the 12 most recent earthquake events along
+                                with a card showing data for each event. This information is displayed on a
+                                dashboard that is specific to the user. If a user signs out and signs back in the last
+                                performed search will be used as the new "default" search. The application was built
+                                with a React.js front end and an Express server
+                                backend. Information on earthquakes was pulled from the USGS Earthquake API and updates
+                                in real time. The styling of the page was
+                                done using bootstrap. The application was built with a React.js front end and an Express
+                                server
+                                backend.</p>
                         </div>
                     </div>
 
@@ -178,35 +184,29 @@
 
                     <div class="row project-row">
                         <div class="col-sm-12 col-md-6 col-lg-3 center">
-                            <div class="imgcard" id="card3">
+                            <div class="imgcard" id="card1">
                                 <div class="imgbox">
-                                    <img src="./assets/images/epicenter-earthquake-tracker.png">
+                                    <img src="./assets/images/skiresortreport.png">
                                 </div>
                                 <div class="cardcontent">
-                                    <a class="nav-link" href="https://github.com/meta-byte/Earthquake-Tracker"
+                                    <a class="nav-link" href="https://github.com/meta-byte/Ski_Resort_Weather_Report"
                                         target="_blank">Repo</a>
-                                    <a class="nav-link" href="https://epicenter-earthquake-tracker.herokuapp.com/"
+                                    <a class="nav-link" href="https://meta-byte.github.io/Ski_Resort_Weather_Report/"
                                         target="_blank">Live</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 col-lg-9">
                             <br>
-                            <h4>Earthquake Tracker</h4>
-                            <p> Part of a team that created this slick looking app. Epicenter earthquake tracker allows
-                                a
-                                user to search for earthquake data for a specific
-                                location based on latitude, longitude magnitude and radius. The search then displays
-                                a google map showing the location of the 12 most recent earthquake events along
-                                with a card showing data for each event. This information is displayed on a
-                                dashboard that is specific to the user. If a user signs out and signs back in the last
-                                performed search will be used as the new "default" search. The application was built
-                                with a React.js front end and an Express server
-                                backend. Information on earthquakes was pulled from the USGS Earthquake API and updates
-                                in real time. The styling of the page was
-                                done using bootstrap. The application was built with a React.js front end and an Express
-                                server
-                                backend.</p>
+                            <h4>Ski Resort Conditions App</h4>
+                            <p>This web application allows a user to search weather forecasts and snow conditions at
+                                specified resort. The search also displays an imbeded google map with a location marker
+                                and a current twitter feed of the specified resort's twitter handle. All of this
+                                information is displayed on the page in an easy to read dashboard format. The styling of
+                                the page was done using Google's Materialize CSS framework. In it's current state the
+                                application is limited by the subscription tier used with the Weather Unlocked API to a
+                                single search, but the app is designed to be scalable with subscription tiers. Forecast
+                                information is based on 1:00pm local time for the present day at the resort.</p>
                         </div>
                     </div>
 
@@ -311,7 +311,7 @@
         </div>
     </main>
     <footer>
-        <div class="container-fluid center">
+        <div class="container-fluid center" id="footer-div">
             <ul class="nav footer-icons center">
                 <li class="nav-item">
                     <a class="nav-link footer-links" href="https://github.com/meta-byte" target="_blank"><i
@@ -326,6 +326,9 @@
                             class="fas fa-envelope"></i></a>
                 </li>
             </ul>
+        </div>
+        <div>
+            <small class="center" id="footer-email">hylander.garrett@gmail.com</small>
         </div>
         <div class="footer-note">
             <small class="center"><span>made with <i class="devicon-bootstrap-plain"></i></span></small>
